@@ -1,0 +1,85 @@
+.frame-b-inner {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 18px;
+  height: 0;
+  object-fit: contain;
+}
+.rectangle-c1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  width: 41px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+.frame-b2 {
+  height: 24px;
+  width: 41px;
+  position: relative;
+}
+.frame-a2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.text-d-icon {
+  width: 262px;
+  height: 259px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.blank-line11,
+.the-endocrine-system,
+.the-pancreas-is {
+  margin: 0;
+}
+.the-pancreas-is-container {
+  height: 465px;
+  width: 339px;
+  position: relative;
+  font-weight: 200;
+  background: linear-gradient(
+    180deg,
+    #9ea8ff,
+    rgba(224, 227, 255, 0.32) 99.99%,
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.android-large-10,
+.frame-e {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-e {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-smi);
+  text-align: left;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.android-large-10 {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #2d537f, rgba(255, 255, 255, 0));
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 14px 0 var(--padding-6xs);
+  box-sizing: border-box;
+  gap: 15px 0;
+}

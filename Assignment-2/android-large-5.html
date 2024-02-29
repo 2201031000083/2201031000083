@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./android-large-5.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jacques Francois:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="android-large-5">
+      <div class="frame-parent">
+        <div class="child-frames">
+          <img class="child-frames-child" alt="" src="./public/arrow-3.svg" />
+
+          <div class="rectangle-cluster" id="rectangleCluster"></div>
+        </div>
+      </div>
+      <img
+        class="single-rectangle-icon"
+        alt=""
+        src="./public/single-rectangle@2x.png"
+      />
+
+      <section class="text-frame">
+        <div class="the-liver-is-container">
+          <p class="the-liver-is">
+            The liver is a large, lobed organ located in the upper abdomen of
+            the human body, on the right side. It is the largest internal organ
+            in the body and is responsible for a wide range of important
+            functions.
+          </p>
+          <p class="blank-line4">&nbsp;</p>
+          <p class="one-of-the">
+            One of the liver's main functions is to process and filter blood.
+            The liver receives blood from two sources: the hepatic artery, which
+            delivers oxygen-rich blood from the heart, and the portal vein,
+            which delivers nutrient-rich blood from the digestive organs. The
+            liver processes this blood and detoxifies it by removing harmful
+            substances, such as alcohol, drugs, and toxins.
+          </p>
+          <p class="blank-line5">&nbsp;</p>
+          <p class="the-liver-also">
+            The liver also plays a key role in metabolism. It helps to regulate
+            the levels of sugar, protein, and fat in the blood, and it produces
+            bile, which is a substance that helps to digest fats. The liver also
+            stores glucose, which is a type of sugar that provides energy to the
+            body, and it releases this glucose into the bloodstream when the
+            body needs it.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var rectangleCluster = document.getElementById("rectangleCluster");
+      if (rectangleCluster) {
+        rectangleCluster.addEventListener("click", function (e) {
+          window.location.href = "./android-large13.html";
+        });
+      }
+      </script>
+  </body>
+</html>

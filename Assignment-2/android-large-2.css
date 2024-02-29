@@ -1,0 +1,78 @@
+.rectangle-cluster1 {
+  position: absolute;
+  top: 337px;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 159px;
+  height: 132px;
+}
+.nested-rectangles,
+.nested-rectangles1,
+.rectangle-cluster2,
+.rectangle-cluster3,
+.rectangle-cluster4 {
+  position: absolute;
+  top: 520px;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 159px;
+  height: 132px;
+}
+.nested-rectangles,
+.nested-rectangles1,
+.rectangle-cluster3,
+.rectangle-cluster4 {
+  left: 181px;
+}
+.nested-rectangles,
+.nested-rectangles1,
+.rectangle-cluster4 {
+  top: 154px;
+  left: 0;
+}
+.nested-rectangles,
+.nested-rectangles1 {
+  left: 179px;
+}
+.nested-rectangles1 {
+  top: 337px;
+}
+.frame-with-rectangles,
+.last-rectangle {
+  position: absolute;
+  top: 0;
+  width: 338px;
+  height: 574px;
+}
+.last-rectangle {
+  left: 0;
+  border-radius: 84px;
+}
+.frame-with-rectangles {
+  left: 2px;
+}
+.parent-frame1 {
+  width: 340px;
+  height: 652px;
+  position: relative;
+}
+.frame-child-rectangles {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.android-large-2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 84px 0 var(--padding-45xl) 9px;
+  box-sizing: border-box;
+}

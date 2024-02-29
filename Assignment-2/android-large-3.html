@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./android-large-3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jacques Francois:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="android-large-3">
+      <section class="frame-container">
+        <img
+          class="footer-icon"
+          loading="lazy"
+          alt=""
+          src="./public/rectangle-2@2x.png"
+        />
+
+        <div class="arrow-connector">
+          <img
+            class="arrow-connector-child"
+            loading="lazy"
+            alt=""
+            src="./public/arrow-1.svg"
+          />
+
+          <div class="rectangle-two" id="rectangleTwo"></div>
+        </div>
+      </section>
+      <section class="text-container">
+        <div class="the-lungs-are-container">
+          <p class="the-lungs-are">
+            The lungs are a pair of organs located in the chest cavity that are
+            responsible for breathing. They are part of the respiratory system,
+            which also includes the nose, throat, windpipe, and diaphragm. The
+            lungs are spongy and have a light pink color, and they are protected
+            by the ribcage.
+          </p>
+          <p class="blank-line">&nbsp;</p>
+          <p class="the-right-lung">
+            The right lung is divided into three lobes, while the left lung has
+            two lobes. This asymmetry is due to the presence of the heart on the
+            left side of the body. The lungs are covered by a thin membrane
+            called the pleura, which helps to protect them and allows them to
+            move smoothly during breathing.
+          </p>
+          <p class="blank-line1">&nbsp;</p>
+          <p class="the-lungs-are1">
+            The lungs are constantly working to provide the body with the oxygen
+            it needs to function. On average, a person takes about 16-20 breaths
+            per minute, which adds up to about 20,000 breaths per day. It is
+            important to take care of your lungs by avoiding smoking and
+            exposure to pollutants.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var rectangleTwo = document.getElementById("rectangleTwo");
+      if (rectangleTwo) {
+        rectangleTwo.addEventListener("click", function (e) {
+          window.location.href = "./android-large13.html";
+        });
+      }
+      </script>
+  </body>
+</html>

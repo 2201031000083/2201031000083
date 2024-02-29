@@ -1,0 +1,103 @@
+.footer-icon {
+  height: 259px;
+  width: 262px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.arrow-connector-child {
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  width: 20px;
+  height: 14.7px;
+  object-fit: contain;
+}
+.arrow-connector,
+.rectangle-two {
+  height: 24px;
+  width: 41px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangle-two {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  cursor: pointer;
+  z-index: 1;
+}
+.arrow-connector {
+  margin: 0 !important;
+}
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-lg) 0 0;
+  position: relative;
+}
+.blank-line,
+.blank-line1,
+.the-lungs-are,
+.the-lungs-are1,
+.the-right-lung {
+  margin: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blank-line,
+.blank-line1,
+.the-lungs-are,
+.the-right-lung {
+  background: linear-gradient(
+    180deg,
+    #cfcceb,
+    #f8d9d9 81.1%,
+    rgba(255, 255, 255, 0)
+  );
+}
+.the-lungs-are1 {
+  background: linear-gradient(
+    180deg,
+    #fff,
+    #fffefe 99.99%,
+    rgba(255, 255, 255, 0)
+  );
+}
+.the-lungs-are-container {
+  align-self: stretch;
+  width: 318px;
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.android-large-3,
+.text-container {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.text-container {
+  width: 288px;
+  height: 500px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.android-large-3 {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #03115b, rgba(246, 239, 237, 0));
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 11px 0 var(--padding-8xs) var(--padding-8xs);
+  gap: 7px 0;
+}

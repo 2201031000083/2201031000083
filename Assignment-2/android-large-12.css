@@ -1,0 +1,89 @@
+.arrow-icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 18px;
+  height: 0;
+  object-fit: contain;
+}
+.inner-rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  width: 41px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+.vector-group {
+  width: 41px;
+  height: 24px;
+  position: relative;
+}
+.another-frame-icon {
+  height: 259px;
+  width: 262px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.frame-group,
+.text-box {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frame-group {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px 0;
+}
+.blank-line13,
+.food-is-broken,
+.the-intestines-are {
+  margin: 0;
+}
+.the-intestines-are-container {
+  margin-bottom: -2px;
+  height: 455px;
+  width: 333px;
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.android-large-12,
+.intestines-label {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.intestines-label {
+  width: 292px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.android-large-12 {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 91, 227, 0),
+    rgba(66, 67, 49, 0.51) 51.37%,
+    #5d6443
+  );
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-lgi) 0 0 var(--padding-8xs);
+  gap: 33px 0;
+}

@@ -1,0 +1,77 @@
+.android-large-11-child {
+  width: 262px;
+  height: 259px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.blank-line12,
+.the-male-reproductive,
+.the-penis-is {
+  margin: 0;
+}
+.the-male-reproductive-container {
+  height: 449px;
+  width: 336px;
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.text-frame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.arrow-child {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 18px;
+  height: 0;
+  object-fit: contain;
+}
+.arrow,
+.frame {
+  width: 41px;
+  height: 24px;
+  position: absolute;
+}
+.frame {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  cursor: pointer;
+  z-index: 1;
+}
+.arrow {
+  margin: 0 !important;
+  top: 22px;
+  left: 10px;
+}
+.android-large-11 {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0),
+    rgba(157, 64, 64, 0.74) 99.99%,
+    #fe4b4b
+  );
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 65px 0 var(--padding-9xs) var(--padding-mid);
+  box-sizing: border-box;
+  gap: 23px 0;
+}

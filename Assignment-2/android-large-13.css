@@ -1,0 +1,85 @@
+.frame-child1 {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 18px;
+  height: 0;
+  object-fit: contain;
+}
+.frame-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro);
+  width: 41px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+.vector-container {
+  width: 41px;
+  height: 24px;
+  position: relative;
+}
+.fourth-frame-icon {
+  height: 259px;
+  width: 262px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.parent-frame2,
+.third-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.parent-frame2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 13px 0;
+}
+.blank-line14,
+.blank-line15,
+.the-fallopian-tubes,
+.the-female-reproductive,
+.the-ovaries-are {
+  margin: 0;
+}
+.the-female-reproductive-container {
+  height: 456px;
+  width: 329px;
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.android-large-13,
+.repro-system-frame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.repro-system-frame {
+  width: 293px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.android-large-13 {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #172d57, rgba(255, 255, 255, 0));
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-smi) 0 var(--padding-base) var(--padding-5xs);
+  gap: 19px 0;
+}
